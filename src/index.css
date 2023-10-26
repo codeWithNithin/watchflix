@@ -1,13 +1,120 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #1a1a1d;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1300px;
+  margin: 30px auto;
+}
+
+.main-header .nav-links ul li {
+  color: #fff;
+  list-style: none;
+}
+
+.flix {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.watch {
+  color: #da3714;
+  font-family: Oswald;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  gap: 20px;
+}
+
+.sign-up {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-title {
+  color: #da3714;
+  font-family: Overpass;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.footer-links::before {
+  content: '-';
+  color: #fff;
+}
+
+.footer-links {
+  color: #fff;
+  font-family: Overpass;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.category-title {
+  color: #fff;
+  color: #fff;
+  text-align: center;
+  font-family: Overpass;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  position: absolute;
+  left: 37%;
+  top: 50%;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  width: 1300px;
+  margin: 30px auto;
+  gap: 32px;
+  margin-bottom: 30px;
+}
+
+.categories .card {
+  position: relative;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #da3714;
+  opacity: 0.7;
+  background: #131313;
+  backdrop-filter: blur(95px);
 }
