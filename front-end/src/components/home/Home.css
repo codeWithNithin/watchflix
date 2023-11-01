@@ -1,0 +1,42 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+
+.child{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    color: white;
+}
+.nav_img1{
+    opacity: 0.5;
+}
+.checked {
+    padding: 2px;
+    color: orange;
+  }
+
+  .btn111{
+  background-color: #DA3714;
+  color: white;
+  padding: 15px;
+  border-radius: 50px;
+  }
+
+  .container1{
+    border-radius: 50px;
+    /* height: 1900px; */
+    width: 90%;
+    margin-left: 100px;
+    /* background-color: white; */
+  }
+  .flex{
+    display: flex;
+  }
+
+  .flex1{
+    padding: 0 40px;
+  }

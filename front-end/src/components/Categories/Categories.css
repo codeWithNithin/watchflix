@@ -1,0 +1,16 @@
+.categories{
+    display: flex;
+    flex-flow: wrap;
+    gap: 20px;
+    padding: 40px;
+    padding-left: 130px;
+    .category{
+       /* background-color: black; */
+       width: calc(22%);
+       overflow: hidden;
+       cursor: pointer;
+       border: 1px solid red;
+       border-radius: 15px;
+       opacity: 70%;
+    }
+}
